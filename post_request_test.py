@@ -4,7 +4,7 @@ import csv
 itemlist = ["clientType", "computerType", "description", "owner", "region"]
 payload = {}
 
-clientType = input('clientType ex.( "Desktops" "Laptops" "Shopfloors" "UnBarked" "Citrix_XD" ): ') 
+clientType = input('clientType ex.( "Desktops" "Laptops" ): ') 
 computerType = input("computerType (Workstation, Server): ") 
 description = input("description: ") 
 owner = input("owner: ") 
