@@ -11,7 +11,7 @@ def asset_creation():
     header = {"Autherization": "Some_token"}
     
     #Dynamic User inputs      
-    clientType = input('clientType: ') #required string 
+    clientType = input('clientType: ')
     description = input("description: ")
     owner = input("owner: ")
     region = input("region: ")
